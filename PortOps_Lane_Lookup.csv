@@ -1,0 +1,4 @@
+Lane,Zone,LaneType
+L1,North,Entry
+L2,Central,Mixed
+L3,South,Exit
