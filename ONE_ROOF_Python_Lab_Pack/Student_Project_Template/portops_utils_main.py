@@ -1,6 +1,9 @@
 """Reusable PortOps pipeline functions."""
 # Add reusable functions here.
 
+from ast import Return
+
+
 def native_cleaning(gate_transactions):
     Cleaned_Collection = []
     for transactions in gate_transactions:
@@ -39,5 +42,59 @@ def native_cleaning(gate_transactions):
     return Cleaned_Collection
 
 
+#Functions for Records Receieved
+def records_received(dirty_data):
+    # Count the number of records received
+    records_received = 0
+    for records in dirty_data:
+        records_received += 1
+    return records_received
+
+#Identify records with missing TransactionID
+# def identify_missing_transaction_id(dirty_data):
+#     missing_transaction_id_records = []
+#     for record in dirty_data:
+#         if not record.get('TransactionID'):
+#             missing_transaction_id_records.append(record)
+#     return missing_transaction_id_records
+
+def identify_missing_transaction_id(dirty_data):
+    missing_transaction_id_records = []
+    for record in dirty_data:
+        if record['TransactionID'] is None or record['TransactionID'] == '':
+            missing_transaction_id_records.append(record)
+    return missing_transaction_id_records
+
+#Identify records with missing TruckNumber
+def identify_missing_truck_number(dirty_data):
+    missing_truck_number_records = []
+    for record in dirty_data:
+        if record['TruckNumber'] is None or record['TruckNumber'] == '':
+            missing_truck_number_records.append(record)
+    return missing_truck_number_records
+
+#identify invalid Gate Direction value
+def identify_invalid_gate_direction(dirty_data):
+    Invalid_gate_direction = []
+
+    for v in dirty_data:
+        if v['GateDirection'] is None or v['GateDirection'] == '':
+            Invalid_gate_direction.append(v)
+
+        else:
+            if v['GateDirection'].upper() not in ['IN', 'OUT']:
+                Invalid_gate_direction.append(v)
+
+    return Invalid_gate_direction
+
+#identify GrossWeightKg values that cannot be treated as numbers
+def invalid_gross_weight(dirty_data):
+    invalid_gross_weight_records = []
+    for record in dirty_data:
+        try:
+            float(record['GrossWeightKg'])
+        except (ValueError, TypeError):
+            invalid_gross_weight_records.append(record)
+    return invalid_gross_weight_records
 
 

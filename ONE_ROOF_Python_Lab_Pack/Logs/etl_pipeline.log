@@ -1,0 +1,27 @@
+2026-11-06 21:36:47,477 - INFO - Records with missing TransactionID: [{'TransactionID': '', 'TransactionTime': '2026-10-20 07:35:00', 'ContainerNumber': 'MSKU100011', 'GateDirection': 'IN', 'TruckNumber': 'TRK111', 'Lane': 'L2', 'OperatorName': 'Khalid', 'GrossWeightKg': '12600'}]
+2026-11-06 22:33:22,547 - INFO - Records with missing TransactionID: [{'TransactionID': '', 'TransactionTime': '2026-10-20 07:35:00', 'ContainerNumber': 'MSKU100011', 'GateDirection': 'IN', 'TruckNumber': 'TRK111', 'Lane': 'L2', 'OperatorName': 'Khalid', 'GrossWeightKg': '12600'}]
+2026-11-06 22:33:22,548 - INFO - Records with missing TransactionID: [{'TransactionID': '', 'TransactionTime': '2026-10-20 07:35:00', 'ContainerNumber': 'MSKU100011', 'GateDirection': 'IN', 'TruckNumber': 'TRK111', 'Lane': 'L2', 'OperatorName': 'Khalid', 'GrossWeightKg': '12600'}]
+2026-11-06 22:33:22,548 - WARNING - Records with missing TruckNumber: 4
+2026-11-06 22:33:22,548 - WARNING - Records with invalid GateDirection: 0
+2026-11-06 22:33:47,950 - INFO - Records with missing TransactionID: [{'TransactionID': '', 'TransactionTime': '2026-10-20 07:35:00', 'ContainerNumber': 'MSKU100011', 'GateDirection': 'IN', 'TruckNumber': 'TRK111', 'Lane': 'L2', 'OperatorName': 'Khalid', 'GrossWeightKg': '12600'}]
+2026-11-06 22:33:47,950 - INFO - Records with missing TransactionID: [{'TransactionID': '', 'TransactionTime': '2026-10-20 07:35:00', 'ContainerNumber': 'MSKU100011', 'GateDirection': 'IN', 'TruckNumber': 'TRK111', 'Lane': 'L2', 'OperatorName': 'Khalid', 'GrossWeightKg': '12600'}]
+2026-11-06 22:33:47,950 - WARNING - Records with missing TruckNumber: 4
+2026-11-06 22:33:47,950 - WARNING - Records with invalid GateDirection: 0
+2026-11-06 22:49:06,950 - INFO - Rows_Read: 12
+2026-11-06 22:49:06,951 - INFO - Records with missing TransactionID: [{'TransactionID': '', 'TransactionTime': '2026-10-20 07:35:00', 'ContainerNumber': 'MSKU100011', 'GateDirection': 'IN', 'TruckNumber': 'TRK111', 'Lane': 'L2', 'OperatorName': 'Khalid', 'GrossWeightKg': '12600'}]
+2026-11-06 22:49:06,952 - INFO - Records with missing TransactionID: [{'TransactionID': '', 'TransactionTime': '2026-10-20 07:35:00', 'ContainerNumber': 'MSKU100011', 'GateDirection': 'IN', 'TruckNumber': 'TRK111', 'Lane': 'L2', 'OperatorName': 'Khalid', 'GrossWeightKg': '12600'}]
+2026-11-06 22:49:06,952 - WARNING - Records with missing TruckNumber: 4
+2026-11-06 22:49:06,952 - WARNING - Records with invalid GateDirection: 0
+2026-11-06 22:49:06,952 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-06 22:49:07,232 - INFO - Rows_Read: 12
+2026-11-06 22:49:07,232 - INFO - Records with missing TransactionID: [{'TransactionID': '', 'TransactionTime': '2026-10-20 07:35:00', 'ContainerNumber': 'MSKU100011', 'GateDirection': 'IN', 'TruckNumber': 'TRK111', 'Lane': 'L2', 'OperatorName': 'Khalid', 'GrossWeightKg': '12600'}]
+2026-11-06 22:49:07,232 - INFO - Records with missing TransactionID: [{'TransactionID': '', 'TransactionTime': '2026-10-20 07:35:00', 'ContainerNumber': 'MSKU100011', 'GateDirection': 'IN', 'TruckNumber': 'TRK111', 'Lane': 'L2', 'OperatorName': 'Khalid', 'GrossWeightKg': '12600'}]
+2026-11-06 22:49:07,232 - WARNING - Records with missing TruckNumber: 4
+2026-11-06 22:49:07,232 - WARNING - Records with invalid GateDirection: 0
+2026-11-06 22:49:07,233 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-06 22:49:12,492 - INFO - Rows_Read: 12
+2026-11-06 22:49:12,493 - INFO - Records with missing TransactionID: [{'TransactionID': '', 'TransactionTime': '2026-10-20 07:35:00', 'ContainerNumber': 'MSKU100011', 'GateDirection': 'IN', 'TruckNumber': 'TRK111', 'Lane': 'L2', 'OperatorName': 'Khalid', 'GrossWeightKg': '12600'}]
+2026-11-06 22:49:12,493 - INFO - Records with missing TransactionID: [{'TransactionID': '', 'TransactionTime': '2026-10-20 07:35:00', 'ContainerNumber': 'MSKU100011', 'GateDirection': 'IN', 'TruckNumber': 'TRK111', 'Lane': 'L2', 'OperatorName': 'Khalid', 'GrossWeightKg': '12600'}]
+2026-11-06 22:49:12,493 - WARNING - Records with missing TruckNumber: 4
+2026-11-06 22:49:12,493 - WARNING - Records with invalid GateDirection: 0
+2026-11-06 22:49:12,494 - WARNING - Records with invalid GrossWeightKg: 2
