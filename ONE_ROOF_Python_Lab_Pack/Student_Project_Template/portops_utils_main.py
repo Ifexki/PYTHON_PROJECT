@@ -7,6 +7,7 @@ from ast import Return
 def native_cleaning(gate_transactions):
     Cleaned_Collection = []
     for transactions in gate_transactions:
+        transactions = transactions.copy()
         # Clean Container Number
         if isinstance(transactions['ContainerNumber'], str):
             transactions['ContainerNumber'] = transactions['ContainerNumber'].strip().replace(" ", "").upper()
@@ -23,9 +24,18 @@ def native_cleaning(gate_transactions):
             transactions['TruckNumber'] = truck_number.strip()
 
 
-        # Convert GrossWeightKg to GrossWeightTons
+      # Convert GrossWeightKg to GrossWeightTons
         gross_weight = transactions['GrossWeightKg']
-        transactions['GrossWeightTons'] = float(gross_weight) / 1000
+
+        try:
+            if gross_weight == '' or gross_weight is None:
+                transactions['GrossWeightTons'] = None
+            else:
+                transactions['GrossWeightTons'] = float(gross_weight) / 1000
+
+        except ValueError:
+            transactions['GrossWeightTons'] = None
+
 
         #WeightClass is LIGHT below 10 tons, MEDIUM from 10–25 tons, HEAVY above 25 tons.
         if transactions['GrossWeightTons'] is not None and transactions['GrossWeightTons'] < 10:
@@ -69,7 +79,7 @@ def identify_missing_transaction_id(dirty_data):
 def identify_missing_truck_number(dirty_data):
     missing_truck_number_records = []
     for record in dirty_data:
-        if record['TruckNumber'] is None or record['TruckNumber'] == '':
+        if record['TruckNumber'] is None or record['TruckNumber'].strip() == '':
             missing_truck_number_records.append(record)
     return missing_truck_number_records
 
@@ -96,5 +106,27 @@ def invalid_gross_weight(dirty_data):
         except (ValueError, TypeError):
             invalid_gross_weight_records.append(record)
     return invalid_gross_weight_records
+
+
+#Preserve invalid records rather than silently discarding them.
+
+def Preserved_records(dirty_data):
+    Total_invalid_records = []
+    Total_invalid_records.append(identify_missing_transaction_id(dirty_data))
+    Total_invalid_records.append(identify_missing_truck_number(dirty_data))
+    Total_invalid_records.append(identify_invalid_gate_direction(dirty_data))
+    Total_invalid_records.append(invalid_gross_weight(dirty_data))
+    return Total_invalid_records
+
+
+def valid_records(dirty_data):
+    valid_records = []
+    for record in dirty_data:
+        if (record not in identify_missing_transaction_id(dirty_data) and
+            record not in identify_missing_truck_number(dirty_data) and
+            record not in identify_invalid_gate_direction(dirty_data) and
+            record not in invalid_gross_weight(dirty_data)):
+            valid_records.append(record)
+    return valid_records
 
 

@@ -25,3 +25,352 @@
 2026-11-06 22:49:12,493 - WARNING - Records with missing TruckNumber: 4
 2026-11-06 22:49:12,493 - WARNING - Records with invalid GateDirection: 0
 2026-11-06 22:49:12,494 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-07 10:51:10,682 - INFO - Rows_Read: len(12)
+2026-11-07 10:51:10,683 - INFO - Records with missing TransactionID: [{'TransactionID': '', 'TransactionTime': '2026-10-20 07:35:00', 'ContainerNumber': 'MSKU100011', 'GateDirection': 'IN', 'TruckNumber': 'TRK111', 'Lane': 'L2', 'OperatorName': 'Khalid', 'GrossWeightKg': '12600'}]
+2026-11-07 10:51:10,684 - INFO - Records with missing TransactionID: [{'TransactionID': '', 'TransactionTime': '2026-10-20 07:35:00', 'ContainerNumber': 'MSKU100011', 'GateDirection': 'IN', 'TruckNumber': 'TRK111', 'Lane': 'L2', 'OperatorName': 'Khalid', 'GrossWeightKg': '12600'}]
+2026-11-07 10:51:10,684 - WARNING - Records with missing TruckNumber: 4
+2026-11-07 10:51:10,685 - WARNING - Records with invalid GateDirection: 0
+2026-11-07 10:51:10,685 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-07 10:55:11,284 - INFO - Rows_Read: 12
+2026-11-07 10:55:11,287 - WARNING - Records with missing TransactionID: 1
+2026-11-07 10:55:11,287 - INFO - Records with missing TransactionID: [{'TransactionID': '', 'TransactionTime': '2026-10-20 07:35:00', 'ContainerNumber': 'MSKU100011', 'GateDirection': 'IN', 'TruckNumber': 'TRK111', 'Lane': 'L2', 'OperatorName': 'Khalid', 'GrossWeightKg': '12600'}]
+2026-11-07 10:55:11,287 - WARNING - Records with missing TruckNumber: 4
+2026-11-07 10:55:11,288 - WARNING - Records with invalid GateDirection: 0
+2026-11-07 10:55:11,289 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-07 10:57:35,361 - INFO - Rows_Read: 12
+2026-11-07 10:57:35,363 - ERROR - Error occurred while identifying missing transaction IDs: name 'list_of_missing_transaction_id_records' is not defined
+2026-11-07 10:57:35,363 - WARNING - Records with missing TruckNumber: 4
+2026-11-07 10:57:35,364 - WARNING - Records with invalid GateDirection: 0
+2026-11-07 10:57:35,364 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-07 11:11:39,489 - INFO - Rows_Read: 12
+2026-11-07 11:11:39,490 - WARNING - Records with missing TransactionID: 1
+2026-11-07 11:11:39,491 - WARNING - Records with missing TruckNumber: 4
+2026-11-07 11:11:39,491 - WARNING - Records with invalid GateDirection: 0
+2026-11-07 11:11:39,491 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-07 11:18:31,803 - INFO - Rows_Read: 12
+2026-11-07 11:18:31,804 - WARNING - Records with missing TransactionID: 1
+2026-11-07 11:18:31,804 - WARNING - Records with missing TruckNumber: 4
+2026-11-07 11:18:31,805 - WARNING - Records with invalid GateDirection: 0
+2026-11-07 11:18:31,805 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-07 11:18:31,805 - WARNING - Invalid Records Set 1: 1
+2026-11-07 11:18:31,806 - WARNING - Invalid Records Set 2: 4
+2026-11-07 11:18:31,806 - WARNING - Invalid Records Set 3: 0
+2026-11-07 11:18:31,806 - WARNING - Invalid Records Set 4: 2
+2026-11-07 11:18:32,115 - INFO - Rows_Read: 12
+2026-11-07 11:18:32,116 - WARNING - Records with missing TransactionID: 1
+2026-11-07 11:18:32,116 - WARNING - Records with missing TruckNumber: 4
+2026-11-07 11:18:32,116 - WARNING - Records with invalid GateDirection: 0
+2026-11-07 11:18:32,117 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-07 11:18:32,117 - WARNING - Invalid Records Set 1: 1
+2026-11-07 11:18:32,117 - WARNING - Invalid Records Set 2: 4
+2026-11-07 11:18:32,118 - WARNING - Invalid Records Set 3: 0
+2026-11-07 11:18:32,118 - WARNING - Invalid Records Set 4: 2
+2026-11-07 11:21:00,746 - INFO - Rows_Read: 12
+2026-11-07 11:21:00,747 - WARNING - Records with missing TransactionID: 1
+2026-11-07 11:21:00,748 - WARNING - Records with missing TruckNumber: 4
+2026-11-07 11:21:00,748 - WARNING - Records with invalid GateDirection: 0
+2026-11-07 11:21:00,749 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-07 11:21:00,755 - WARNING - Invalid Records Set 1: 1
+2026-11-07 11:21:00,756 - WARNING - Invalid Records Set 2: 4
+2026-11-07 11:21:00,758 - WARNING - Invalid Records Set 3: 0
+2026-11-07 11:21:00,759 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:23:54,476 - INFO - Rows_Read: 12
+2026-11-11 12:23:54,479 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:23:54,480 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:23:54,483 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:23:54,483 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:23:54,484 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:23:54,485 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:23:54,486 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:23:54,488 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:26:36,474 - INFO - Rows_Read: 12
+2026-11-11 12:26:36,475 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:26:36,475 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:26:36,475 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:26:36,475 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:26:36,476 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:26:36,476 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:26:36,476 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:26:36,476 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:27:52,562 - INFO - Rows_Read: 12
+2026-11-11 12:27:52,562 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:27:52,563 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:27:52,563 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:27:52,565 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:27:52,566 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:27:52,567 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:27:52,568 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:27:52,569 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:30:27,184 - INFO - Rows_Read: 12
+2026-11-11 12:30:27,185 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:30:27,186 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:30:27,186 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:30:27,187 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:30:27,187 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:30:27,187 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:30:27,188 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:30:27,188 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:33:17,197 - INFO - Rows_Read: 12
+2026-11-11 12:33:17,198 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:33:17,199 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:33:17,199 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:33:17,200 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:33:17,201 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:33:17,201 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:33:17,201 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:33:17,201 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:34:26,890 - INFO - Rows_Read: 12
+2026-11-11 12:34:26,891 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:34:26,891 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:34:26,891 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:34:26,892 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:34:26,892 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:34:26,892 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:34:26,892 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:34:26,892 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:34:27,244 - INFO - Rows_Read: 12
+2026-11-11 12:34:27,246 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:34:27,247 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:34:27,248 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:34:27,249 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:34:27,250 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:34:27,250 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:34:27,251 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:34:27,252 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:36:29,132 - INFO - Rows_Read: 12
+2026-11-11 12:36:29,133 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:36:29,134 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:36:29,134 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:36:29,134 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:36:29,135 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:36:29,135 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:36:29,136 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:36:29,136 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:36:29,137 - INFO - Rejected records written to CSV successfully.
+2026-11-11 12:43:23,731 - INFO - Rows_Read: 12
+2026-11-11 12:43:23,743 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:43:23,745 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:43:23,748 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:43:23,761 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:43:23,764 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:43:23,765 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:43:23,768 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:43:23,772 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:43:23,779 - INFO - Rejected records written to CSV successfully.
+2026-11-11 12:43:23,788 - ERROR - Error occurred while writing valid records to CSV: 0
+2026-11-11 12:44:35,656 - INFO - Rows_Read: 12
+2026-11-11 12:44:35,657 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:44:35,658 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:44:35,658 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:44:35,658 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:44:35,659 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:44:35,659 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:44:35,659 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:44:35,659 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:44:35,660 - INFO - Rejected records written to CSV successfully.
+2026-11-11 12:44:35,662 - ERROR - Error occurred while writing valid records to CSV: 0
+2026-11-11 12:47:42,782 - INFO - Rows_Read: 12
+2026-11-11 12:47:42,784 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:47:42,784 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:47:42,784 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:47:42,785 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:47:42,785 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:47:42,786 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:47:42,786 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:47:42,787 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:47:42,789 - INFO - Rejected records written to CSV successfully.
+2026-11-11 12:47:42,793 - INFO - Valid Records Set 1: 8
+2026-11-11 12:47:42,796 - INFO - Valid Records Set 2: 8
+2026-11-11 12:47:42,797 - INFO - Valid Records Set 3: 8
+2026-11-11 12:47:42,797 - INFO - Valid Records Set 4: 8
+2026-11-11 12:47:42,798 - INFO - Valid Records Set 5: 8
+2026-11-11 12:47:42,799 - INFO - Valid Records Set 6: 8
+2026-11-11 12:47:42,802 - ERROR - Error occurred while writing valid records to CSV: 0
+2026-11-11 12:49:26,161 - INFO - Rows_Read: 12
+2026-11-11 12:49:26,162 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:49:26,162 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:49:26,162 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:49:26,162 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:49:26,163 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:49:26,163 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:49:26,163 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:49:26,163 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:49:26,164 - INFO - Rejected records written to CSV successfully.
+2026-11-11 12:49:26,414 - INFO - Rows_Read: 12
+2026-11-11 12:49:26,415 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:49:26,415 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:49:26,415 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:49:26,415 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:49:26,415 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:49:26,416 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:49:26,416 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:49:26,416 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:49:26,416 - INFO - Rejected records written to CSV successfully.
+2026-11-11 12:50:26,274 - INFO - Rows_Read: 12
+2026-11-11 12:50:26,275 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:50:26,275 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:50:26,276 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:50:26,276 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:50:26,277 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:50:26,277 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:50:26,277 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:50:26,278 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:50:26,278 - INFO - Rejected records written to CSV successfully.
+2026-11-11 12:50:26,279 - INFO - Valid Records Set 1: 8
+2026-11-11 12:50:26,280 - INFO - Valid Records Set 2: 8
+2026-11-11 12:50:26,280 - INFO - Valid Records Set 3: 8
+2026-11-11 12:50:26,282 - INFO - Valid Records Set 4: 8
+2026-11-11 12:50:26,284 - INFO - Valid Records Set 5: 8
+2026-11-11 12:50:26,286 - INFO - Valid Records Set 6: 8
+2026-11-11 12:50:26,289 - ERROR - Error occurred while writing valid records to CSV: 'str' object has no attribute 'keys'
+2026-11-11 12:55:10,768 - INFO - Rows_Read: 12
+2026-11-11 12:55:10,768 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:55:10,769 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:55:10,770 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:55:10,771 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:55:10,772 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:55:10,772 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:55:10,773 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:55:10,774 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:55:10,777 - INFO - Rejected records written to CSV successfully.
+2026-11-11 12:55:10,779 - INFO - Valid Records Set 1: 7
+2026-11-11 12:55:10,780 - INFO - Valid Records Set 2: 7
+2026-11-11 12:55:10,781 - INFO - Valid Records Set 3: 7
+2026-11-11 12:55:10,786 - ERROR - Error occurred while writing valid records to CSV: 'str' object has no attribute 'keys'
+2026-11-11 12:56:04,344 - INFO - Rows_Read: 12
+2026-11-11 12:56:04,345 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:56:04,346 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:56:04,346 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:56:04,347 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:56:04,347 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:56:04,348 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:56:04,349 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:56:04,349 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:56:04,352 - INFO - Rejected records written to CSV successfully.
+2026-11-11 12:56:04,354 - INFO - Valid Records Set 1: 7
+2026-11-11 12:56:04,355 - INFO - Valid Records Set 2: 7
+2026-11-11 12:56:04,356 - INFO - Valid Records Set 3: 7
+2026-11-11 12:56:50,506 - INFO - Rows_Read: 12
+2026-11-11 12:56:50,508 - WARNING - Records with missing TransactionID: 1
+2026-11-11 12:56:50,509 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 12:56:50,509 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 12:56:50,509 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 12:56:50,510 - WARNING - Invalid Records Set 1: 1
+2026-11-11 12:56:50,511 - WARNING - Invalid Records Set 2: 4
+2026-11-11 12:56:50,511 - WARNING - Invalid Records Set 3: 0
+2026-11-11 12:56:50,512 - WARNING - Invalid Records Set 4: 2
+2026-11-11 12:56:50,514 - INFO - Rejected records written to CSV successfully.
+2026-11-11 13:12:55,150 - INFO - Rows_Read: 12
+2026-11-11 13:12:55,151 - WARNING - Records with missing TransactionID: 1
+2026-11-11 13:12:55,152 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 13:12:55,152 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 13:12:55,152 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 13:12:55,153 - WARNING - Invalid Records Set 1: 1
+2026-11-11 13:12:55,153 - WARNING - Invalid Records Set 2: 4
+2026-11-11 13:12:55,153 - WARNING - Invalid Records Set 3: 0
+2026-11-11 13:12:55,154 - WARNING - Invalid Records Set 4: 2
+2026-11-11 13:12:55,155 - INFO - Rejected records written to CSV successfully.
+2026-11-11 13:12:55,156 - INFO - Valid Records Set 1: 7
+2026-11-11 13:12:55,157 - INFO - Valid Records Set 2: 7
+2026-11-11 13:12:55,158 - INFO - Valid Records Set 3: 7
+2026-11-11 13:12:55,160 - INFO - Valid records written to CSV successfully.
+2026-11-11 13:36:37,657 - INFO - Rows_Read: 12
+2026-11-11 13:40:22,793 - INFO - Rows_Read: 12
+2026-11-11 13:43:26,753 - INFO - Rows_Read: 12
+2026-11-11 13:46:35,322 - INFO - Rows_Read: 12
+2026-11-11 13:46:35,323 - WARNING - Records with missing TransactionID: 1
+2026-11-11 13:46:35,323 - WARNING - Records with missing TruckNumber: 0
+2026-11-11 13:46:35,323 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 13:46:35,323 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 13:46:35,324 - WARNING - Invalid Records Set 1: 1
+2026-11-11 13:46:35,324 - WARNING - Invalid Records Set 2: 0
+2026-11-11 13:46:35,324 - WARNING - Invalid Records Set 3: 0
+2026-11-11 13:46:35,324 - WARNING - Invalid Records Set 4: 2
+2026-11-11 13:46:35,325 - INFO - Rejected records written to CSV successfully.
+2026-11-11 13:46:35,326 - ERROR - Error occurred while writing valid records to CSV: list index out of range
+2026-11-11 13:56:22,138 - INFO - Rows_Read: 12
+2026-11-11 13:56:22,139 - WARNING - Records with missing TransactionID: 1
+2026-11-11 13:56:22,140 - WARNING - Records with missing TruckNumber: 0
+2026-11-11 13:56:22,140 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 13:56:22,141 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 13:56:22,141 - WARNING - Invalid Records Set 1: 1
+2026-11-11 13:56:22,142 - WARNING - Invalid Records Set 2: 0
+2026-11-11 13:56:22,142 - WARNING - Invalid Records Set 3: 0
+2026-11-11 13:56:22,142 - WARNING - Invalid Records Set 4: 2
+2026-11-11 13:56:22,144 - INFO - Rejected records written to CSV successfully.
+2026-11-11 13:56:22,146 - ERROR - Error occurred while writing valid records to CSV: list index out of range
+2026-11-11 14:00:22,924 - INFO - Rows_Read: 12
+2026-11-11 14:00:22,925 - WARNING - Records with missing TransactionID: 1
+2026-11-11 14:00:22,926 - WARNING - Records with missing TruckNumber: 0
+2026-11-11 14:00:22,926 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 14:00:22,926 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 14:00:22,927 - WARNING - Invalid Records Set 1: 1
+2026-11-11 14:00:22,927 - WARNING - Invalid Records Set 2: 0
+2026-11-11 14:00:22,927 - WARNING - Invalid Records Set 3: 0
+2026-11-11 14:00:22,928 - WARNING - Invalid Records Set 4: 2
+2026-11-11 14:00:22,929 - INFO - Rejected records written to CSV successfully.
+2026-11-11 14:00:22,931 - ERROR - Error occurred while writing valid records to CSV: list index out of range
+2026-11-11 14:04:39,961 - INFO - Rows_Read: 12
+2026-11-11 14:04:39,963 - WARNING - Records with missing TransactionID: 1
+2026-11-11 14:04:39,963 - WARNING - Records with missing TruckNumber: 0
+2026-11-11 14:04:39,964 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 14:04:39,964 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 14:04:39,964 - WARNING - Invalid Records Set 1: 1
+2026-11-11 14:04:39,965 - WARNING - Invalid Records Set 2: 0
+2026-11-11 14:04:39,965 - WARNING - Invalid Records Set 3: 0
+2026-11-11 14:04:39,965 - WARNING - Invalid Records Set 4: 2
+2026-11-11 14:04:39,966 - INFO - Rejected records written to CSV successfully.
+2026-11-11 14:04:39,968 - ERROR - Error occurred while writing valid records to CSV: list index out of range
+2026-11-11 14:06:07,426 - INFO - Rows_Read: 12
+2026-11-11 14:06:07,427 - WARNING - Records with missing TransactionID: 1
+2026-11-11 14:06:07,427 - WARNING - Records with missing TruckNumber: 0
+2026-11-11 14:06:07,427 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 14:06:07,427 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 14:06:07,428 - WARNING - Invalid Records Set 1: 1
+2026-11-11 14:06:07,428 - WARNING - Invalid Records Set 2: 0
+2026-11-11 14:06:07,428 - WARNING - Invalid Records Set 3: 0
+2026-11-11 14:06:07,429 - WARNING - Invalid Records Set 4: 2
+2026-11-11 14:06:07,430 - INFO - Rejected records written to CSV successfully.
+2026-11-11 14:06:07,431 - ERROR - Error occurred while writing valid records to CSV: list index out of range
+2026-11-11 14:07:25,702 - INFO - Rows_Read: 12
+2026-11-11 14:07:25,703 - WARNING - Records with missing TransactionID: 1
+2026-11-11 14:07:25,703 - WARNING - Records with missing TruckNumber: 0
+2026-11-11 14:07:25,703 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 14:07:25,704 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 14:07:25,704 - WARNING - Invalid Records Set 1: 1
+2026-11-11 14:07:25,704 - WARNING - Invalid Records Set 2: 0
+2026-11-11 14:07:25,705 - WARNING - Invalid Records Set 3: 0
+2026-11-11 14:07:25,705 - WARNING - Invalid Records Set 4: 2
+2026-11-11 14:07:25,705 - INFO - Rejected records written to CSV successfully.
+2026-11-11 14:07:25,706 - ERROR - Error occurred while writing valid records to CSV: list index out of range
+2026-11-11 14:53:09,406 - INFO - Rows_Read: 12
+2026-11-11 14:53:09,408 - WARNING - Records with missing TransactionID: 1
+2026-11-11 14:53:09,409 - WARNING - Records with missing TruckNumber: 0
+2026-11-11 14:53:09,409 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 14:53:09,410 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 14:53:09,410 - WARNING - Invalid Records Set 1: 1
+2026-11-11 14:53:09,411 - WARNING - Invalid Records Set 2: 0
+2026-11-11 14:53:09,411 - WARNING - Invalid Records Set 3: 0
+2026-11-11 14:53:09,411 - WARNING - Invalid Records Set 4: 2
+2026-11-11 14:53:09,413 - INFO - Rejected records written to CSV successfully.
+2026-11-11 14:53:09,417 - ERROR - Error occurred while writing valid records to CSV: list index out of range
+2026-11-11 15:07:07,119 - INFO - Rows_Read: 12
+2026-11-11 15:07:07,122 - WARNING - Records with missing TransactionID: 1
+2026-11-11 15:07:07,122 - WARNING - Records with missing TruckNumber: 4
+2026-11-11 15:07:07,123 - WARNING - Records with invalid GateDirection: 0
+2026-11-11 15:07:07,124 - WARNING - Records with invalid GrossWeightKg: 2
+2026-11-11 15:07:07,125 - WARNING - Invalid Records Set 1: 1
+2026-11-11 15:07:07,125 - WARNING - Invalid Records Set 2: 4
+2026-11-11 15:07:07,125 - WARNING - Invalid Records Set 3: 0
+2026-11-11 15:07:07,126 - WARNING - Invalid Records Set 4: 2
+2026-11-11 15:07:07,127 - INFO - Rejected records written to CSV successfully.
+2026-11-11 15:07:07,128 - INFO - Valid Records Set 1: 10
+2026-11-11 15:07:07,129 - INFO - Valid Records Set 2: 10
+2026-11-11 15:07:07,130 - INFO - Valid Records Set 3: 10
+2026-11-11 15:07:07,130 - INFO - Valid Records Set 4: 10
+2026-11-11 15:07:07,131 - INFO - Valid Records Set 5: 10
+2026-11-11 15:07:07,132 - INFO - Valid Records Set 6: 10
+2026-11-11 15:07:07,133 - INFO - Valid Records Set 7: 10
+2026-11-11 15:07:07,134 - INFO - Valid Records Set 8: 10
+2026-11-11 15:07:07,134 - INFO - Valid Records Set 9: 10
+2026-11-11 15:07:07,138 - INFO - Valid records written to CSV successfully.
